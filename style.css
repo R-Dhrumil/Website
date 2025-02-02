@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+:root {
+    --background1: #9cc9cf;
+    --white-background1: #e0e1e1;
+    --background2: #97c2c8;
+    --white-background2: #fefeff;
+
+}
+
+.main_container {
+    position: relative;
+}
+
+.back_container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.mleft {
+    width: 50%;
+    min-height: 100vh;
+    background-color: var(--background1);
+}
+
+.mright {
+    width: 50%;
+    min-height: 100vh;
+    background: var(--white-background1);
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    min-width: 85%;
+    min-height: 80%;
+    /* background-color: red; */
+}
+
+.left {
+    background: var(--white-background2);
+    min-width: 65%;
+    min-height: 80%;
+    padding-left: 25px;
+    position: relative;
+}
+
+.right {
+    background-color: var(--background2);
+    min-width: 35%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 12;
+}
+
+header img {
+    margin-right: 30px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #b5b5b5;
+    font-weight: 500;
+
+    &:hover {
+        color: black;
+    }
+}
+
+main {
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+/* .text{
+    min-width: 300px;
+} */
+
+.text .heading {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.text .para {
+    font-size: 13px;
+    text-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.add {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.learn {
+    background-color: var(--white-background2);
+    color: black;
+    border-radius: 5px;
+}
+
+
+.buttons div {
+    padding-top: 7px;
+}
+
+.bx-heart {
+    font-size: 2rem;
+    color: black;
+    margin-top: 5px;
+}
+
+
+.sofa {
+    position: absolute;
+    top: 2px;
+    left: 550px;
+}
+
+.sofa img {
+    width: 500px;
+}
+
+.colrbtn {
+    margin-top: 20px;
+    
+}
+
+.same {
+    padding: 13px;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+    border: 1.5px solid;
+}
+
+.violet{
+    background: #b692de;
+}
+
+.green{
+    background: #606d5e;
+}
+
+.headright{
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    text-align: right;
+    width: 100%;
+}
